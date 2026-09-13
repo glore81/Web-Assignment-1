@@ -2,10 +2,11 @@
     color:rgb(158, 81, 8);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 30px;
+    text-align: center;
 }
 
 table {
-    margin: 20px;
+    margin: 20px auto;
     border-collapse: collapse;
 }
 
@@ -31,9 +32,9 @@ tr:nth-child(even){
 }
 
 .form1 {
-    margin: 20px;
+    margin: 0 auto;
     padding: 30px 10px;
-    max-width: 40%;
+    max-width: 25%;
     border-radius: 8px;
     height: auto;
     text-align: center;
@@ -41,3 +42,58 @@ tr:nth-child(even){
     border: solid 1px black;
 
 }
+
+label {
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+}
+
+.radio {
+    display: inline-block;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+input[type="text"], input[type="email"] {
+    margin-bottom: 15px;
+    height: 20px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+select {
+    height: 25px;
+    width: 17%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+textarea {
+    height: 50px;
+    width: 40%;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight:bold;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(142, 235, 80);
+    color: rgb(49, 49, 49);
+}
+

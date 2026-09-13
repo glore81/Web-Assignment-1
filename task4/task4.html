@@ -57,7 +57,7 @@
         <label for="name">Input name:</label>
         <input type="text" name="username" id="name">
         <label for="email">Input email:</label>
-        <input type="text" name="email" id="email">
+        <input type="email" name="email" id="email">
         <label for="role">Choose role:</label>
         <select name="roleChoice" id="role">
             <option value="teacher">Teacher</option>
@@ -66,12 +66,13 @@
         </select>
         <p>Do you like Web-development?</p>
         <input type="radio" id="yes1" name="question1" value="YES">
-        <label for="yes1">Yes</label>
+        <label for="yes1" class="radio">Yes</label>
         <input type="radio" id="no1" name="question1" value="NO">
-        <label for="no1">No</label>
+        <label for="no1" class="radio">No</label>
 
         <label for="favsub">Which subject is your favorite? Why?</label>
-        <input type="textarea" name="favor" id="favsub">
+        <textarea name="favorite" id="favsub"></textarea>
+        <button type="submit">Submit</button>
     </form>
 
 </body>
