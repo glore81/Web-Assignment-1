@@ -5,7 +5,8 @@
 }
 
 table {
-    border: solid 1px black;
+    margin: 20px;
+    border-collapse: collapse;
 }
 
 th, td {
@@ -27,4 +28,16 @@ tr:nth-child(even){
 
 .highlight-row {
     background-color: rgb(172, 5, 172);
+}
+
+.form1 {
+    margin: 20px;
+    padding: 30px 10px;
+    max-width: 40%;
+    border-radius: 8px;
+    height: auto;
+    text-align: center;
+    background-color: darkgray;
+    border: solid 1px black;
+
 }
