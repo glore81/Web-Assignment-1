@@ -58,6 +58,7 @@ img {
     max-width: 450px;
     height: auto;
     border-radius: 6px;
+    box-shadow: 2px 2px 7px black;
 }
 
 ol, ul {
